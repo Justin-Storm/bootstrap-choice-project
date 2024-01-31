@@ -5,5 +5,14 @@ html {
 
 .body {
     background: linear-gradient(grey 25%, white 100%);
-    overflow: hidden;
+    overflow: none;
+    background-attachment: fixed;
+}
+
+.computer-img {
+    width: 35px;
+}
+
+a, p {
+    font-family: 'Akira Expanded';
 }
