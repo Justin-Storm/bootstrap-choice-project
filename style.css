@@ -1,0 +1,43 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.body {
+    background: linear-gradient(grey 25%, white 100%);
+    overflow: hidden;
+}
+
+p {
+    font-family: 'Akira Expanded';
+}
+
+.p1 {
+    font-size: 85px;
+    text-shadow: 3px 3px 4px white;
+}
+
+.p2 {
+    font-size: 25px;
+    background-color: black;
+    display: inline;
+    color: white;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 25px;
+    transition-duration: 0.5s;
+}
+.p2:hover {
+    border-color: black;
+    color: black;
+    background-color: white;
+    padding: 10px 40px 10px 40px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.m1 {
+    margin-top: 400px;
+}
